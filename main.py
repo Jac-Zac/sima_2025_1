@@ -1,3 +1,7 @@
 class ShoppingList:
+
     def __init__(self):
-        pass
+        self.items = []
+
+    def add_item(self, item):
+        self.items.append(item)
