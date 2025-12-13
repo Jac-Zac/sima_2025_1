@@ -17,14 +17,20 @@ Then open the repository in your account, and find its address
 ```
 git clone https://github.com/<YOUR_ADDRESS>.git
 cd sima_2025_1
-uv sync
+uv sync  # this will create virtual environment, install pytest library, etc.
 ```
 Open folder `sima_2025_1` with VSCODE. Verify that all files are present.
+
+If you want me to help, check your work, or need guidance, write an issue on your github page, and send the link on my Telegram.
+
+Need to add a new library?
+
+`uv add <LIBRARY_NAME>`
 
 Go on with the Test Driven Development:
  + pick a feature
  + write a test
- + run the test, let it fail
+ + run the test `uv python, let it fail
  + write code
  + run the test again. repeat last 2 steps until all is green
  + commit
