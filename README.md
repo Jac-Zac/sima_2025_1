@@ -1,6 +1,36 @@
 
 # Shopping List CLI Toy Project
 
+
+## Instruction
+
+Install VSCode, git (with bash), uv. Create a GitHub account. Google how to do that if in doubt.
+
+Fork the repository to make a copy in your account:
+
+![fork](docs/image.png)
+
+Then open the repository in your account, and find its address
+
+![get_address](docs/image2.png)
+
+```
+git clone https://github.com/<YOUR_ADDRESS>.git
+cd sima_2025_1
+uv sync
+```
+Open folder `sima_2025_1` with VSCODE. Verify that all files are present.
+
+Go on with the Test Driven Development:
+ + pick a feature
+ + write a test
+ + run the test, let it fail
+ + write code
+ + run the test again. repeat last 2 steps until all is green
+ + commit
+
+
+
 ## Project Overview
 
 This project is a simple command-line interface (CLI) application for managing a shopping list. It is designed for beginners and uses only the Python standard library. The user can add, view, and remove items from their shopping list directly from the terminal.
