@@ -92,3 +92,12 @@ def test_total_quantity():
     my_list.add_item(ListItem("peperoni", 5))
     total = my_list.total_quantity()
     assert total == 12
+
+
+def test_edit_item_quantity():
+    "si può modificare la quantità di un elemento nella lista"
+    my_list = ShoppingList()
+    my_list.add_item(ListItem("zucchine", 2))
+    # Modifica la quantità di zucchine
+    my_list.edit_quantity("zucchine", 5)
+    assert my_list.items[-1].quantity == 5

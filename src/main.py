@@ -4,6 +4,7 @@ if __name__ == "__main__":
     # Esempio di utilizzo
     my_list = ShoppingList()
     input("Benvenuto nella tua lista della spesa!\nPremi Invio per continuare...")
+
     stop = False
     while not stop:
         item_to_insert = input(

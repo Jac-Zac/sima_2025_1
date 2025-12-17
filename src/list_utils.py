@@ -28,3 +28,9 @@ class ShoppingList:
 
     def total_quantity(self):
         return robust_sum(item.quantity for item in self.items)
+
+    def edit_quantity(self, item_name, new_quantity):
+        """Modifica la quantità di un elemento nella lista."""
+        for item in self.items:
+            if item.name == item_name:
+                item.quantity = new_quantity
