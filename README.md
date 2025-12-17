@@ -1,6 +1,4 @@
-
 # Shopping List CLI Toy Project
-
 
 ## Instruction
 
@@ -14,11 +12,12 @@ Then open the repository in your account, and find its address
 
 ![get_address](docs/image2.png)
 
-```
+```bash
 git clone https://github.com/<YOUR_ADDRESS>.git
 cd sima_2025_1
 uv sync  # this will create virtual environment, install pytest library, etc.
 ```
+
 Open folder `sima_2025_1` with VSCODE. Verify that all files are present.
 
 If you want me to help, check your work, or need guidance, write an issue on your github page, and send the link on my Telegram.
@@ -53,7 +52,7 @@ This project is a simple command-line interface (CLI) application for managing a
 
 ## Example CLI Usage
 
-```
+```bash
 $ python shopping_list.py add milk 2
 Added 2 x milk to the shopping list.
 
